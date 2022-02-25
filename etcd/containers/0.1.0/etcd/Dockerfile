@@ -1,4 +1,4 @@
-FROM alpine:3.2
+FROM alpine:3.14.3
 
 RUN apk add --update bash curl ca-certificates && rm -rf /var/cache/apk/*
 ADD ./run.sh /opt/rancher/run.sh
