@@ -1,4 +1,4 @@
-FROM alpine:3.2
+FROM alpine:3.14.3
 
 RUN apk add --update bash curl jq && rm -rf /var/cache/apk/*
 
